@@ -1,1 +1,8 @@
+if not isfolder("Apel Hub") then
+  makefolder("Apel Hub")
+end
+if not isfile("Apel Hub/Saved Key.txt") then
+  writefile("Apel Hub/Saved Key.txt", "BrBrPatapim")
+end
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ApelsinkaFr/ApelHub/refs/heads/main/ApelHub", true))()
